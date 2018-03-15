@@ -1,6 +1,6 @@
 # Composer files
 composer.phar
-vendor/
+#vendor/
 
 # Local configs
 config/autoload/*.local.php
@@ -23,3 +23,11 @@ data/DoctrineORMModule/cache/
 # Legacy ZF1
 demos/
 extras/documentation
+
+#Vagrant files
+.vagrant/
+vendor/
+config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+phpunit.xml
